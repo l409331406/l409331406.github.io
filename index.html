@@ -82,6 +82,10 @@
 		<nav class="header-smart-menu">
 			
 				
+					<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)" target="_blank" rel="noopener">所有文章</a>
+				
+			
+				
 					<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)" target="_blank" rel="noopener">关于我</a>
 				
 			
@@ -179,6 +183,108 @@
           </div>
           <div id="js-content" class="content-ll">
             
+
+  
+    <article id="post-修真院任务一" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2019/12/04/%E4%BF%AE%E7%9C%9F%E9%99%A2%E4%BB%BB%E5%8A%A1%E4%B8%80/" target="_blank">修真院任务一</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2019/12/04/%E4%BF%AE%E7%9C%9F%E9%99%A2%E4%BB%BB%E5%8A%A1%E4%B8%80/" class="archive-article-date">
+        <time datetime="2019-12-04T15:36:40.526Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-04</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <hr>
+<p>title: 修真院任务一<br>date: 2019-12-04 23:36:40<br>tags:</p>
+<hr>
+<p>html<br><!DOCTYPE html></p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>九宫格宽高自适应改</title>
+  <meta name="generator" content="hexo-theme-yilia-plus">
+    <link rel="stylesheet" href="001css.css">
+</head>
+<body>
+    <div>
+       <div class="demo1"></div>
+       <div class="demo2"></div>
+       <div class="demo3"></div>
+       <div class="demo4"></div>
+       <div class="demo5"></div>
+       <div class="demo6"></div>
+       <div class="demo7"></div>
+       <div class="demo8"></div>
+       <div class="demo9"></div>
+    </div>
+</body>
+</html>
+
+<p>css</p>
+<p>*{<br>        margin:0;<br>        padding:0;<br>    }<br>body{<br>     height:auto;<br>     width:auto;<br>    }<br>[class]{<br>    background:orange;<br>    float:left;<br>    padding-bottom:31%;<br>    padding-left:31%;<br>    margin:1%;<br>    border-radius:10%;<br>    }</p>
+
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+    
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2019/12/04/%E4%BF%AE%E7%9C%9F%E9%99%A2%E4%BB%BB%E5%8A%A1%E4%B8%80/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" target="_blank" rel="noopener" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
 
   
     <article id="post-newpapername" class="article article-type-post  article-index" itemscope itemprop="blogPost">
@@ -425,7 +531,7 @@
 		open_in_new: true,
 		toc_hide_index: true,
 		root: "/",
-		innerArchive: false,
+		innerArchive: true,
 		showTags: true
 	}
 </script>
@@ -463,18 +569,81 @@
       
       
     
+      
+      
+      
+    
     
 
     <ul style="width: 70%">
     
     
       
-      <li style="width: 100%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" target="_blank" rel="noopener" q-class="active:aboutme">关于我</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" target="_blank" rel="noopener" q-class="active:innerArchive">所有文章</a></li>
+      
+        
+      
+      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" target="_blank" rel="noopener" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
   </div>
   <div class="tools-wrap">
+    
+    	<section class="tools-section tools-section-all" q-show="innerArchive">
+        <div class="search-wrap">
+          <input class="search-ipt" q-model="search" type="text" placeholder="find something…">
+          <i class="icon-search icon" q-show="search|isEmptyStr"></i>
+          <i class="icon-close icon" q-show="search|isNotEmptyStr" q-on="click:clearChose(e)"></i>
+        </div>
+        <div class="widget tagcloud search-tag">
+          <p class="search-tag-wording">tag:</p>
+          <label class="search-switch">
+            <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
+          </label>
+          <ul class="article-tag-list" q-show="showTags">
+            
+            <div class="clearfix"></div>
+          </ul>
+        </div>
+        <ul class="search-ul">
+          <p q-show="jsonFail" style="padding: 20px; font-size: 12px;">
+            缺失模块。<br/>1、请确保node版本大于6.2<br/>2、在博客根目录（注意不是yilia-plus根目录）执行以下命令：<br/> npm i hexo-generator-json-content --save<br/><br/>
+            3、在根目录_config.yml里添加配置：
+<pre style="font-size: 12px;" q-show="jsonFail">
+  jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: false
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
+</pre>
+          </p>
+          <li class="search-li" q-repeat="items" q-show="isShow">
+            <a q-attr="href:path|urlformat" class="search-title"><i class="icon-quo-left icon"></i><span q-text="title"></span></a>
+            <p class="search-time">
+              <i class="icon-calendar icon"></i>
+              <span q-text="date|dateformat"></span>
+            </p>
+            <p class="search-tag">
+              <i class="icon-price-tags icon"></i>
+              <span q-repeat="tags" q-on="click:choseTag(e, name)" q-text="name|tagformat"></span>
+            </p>
+          </li>
+        </ul>
+    	</section>
     
 
     
