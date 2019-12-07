@@ -1,0 +1,16 @@
+*{
+        margin:0;
+        padding:0;
+    }
+    body{
+     height:auto;
+     width:auto;
+    }
+    [class]{
+        background:orange;
+        float:left;
+        padding-bottom:31%;
+        padding-left:31%;
+        margin:1%;
+        border-radius:10%;
+    }
