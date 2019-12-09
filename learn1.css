@@ -1,0 +1,52 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height:100%;
+	width:100%;
+	font-size:10px;
+	background-color:#68cdd5;/*rgb(104,205,213)*/
+}
+.return{
+	/*width:10rem;*/
+	height:6rem;
+}
+.return1{
+	height:5rem;
+	width:5rem;
+}
+.logo{
+	margin:0 auto;
+	/*padding-right:2rem;
+	padding-left:2rem;*/
+	text-align:center;
+	width:auto;
+	height:14rem;
+	/*float:center;*/
+}
+.logo1{
+	height:9rem;
+	width:18rem;
+}
+.character{
+	/*text-align:center;*/
+	font-size:1.4rem;
+	font-weight:bold;
+	color:#fff;
+	margin:0 10%;
+	height:auto;
+	width:auto;
+}
+.cornerMarkBox1{
+	float:left;
+	margin-top:20%;
+}
+.cornerMark1,.cornerMark2{
+	height:15rem;
+	width:15rem;
+}
+.cornerMarkBox2{
+	float:right;
+	margin-top:20%;
+}
