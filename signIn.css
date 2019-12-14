@@ -1,0 +1,89 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+html,body{
+	background:rgb(239,240,244);
+	height:auto;
+	width:auto;
+	font-size:16px;
+}
+header{
+	position:static;
+	height:2.5rem;
+	font-size:1.2rem;
+}
+.signin_2,header{
+	background:rgb(95,192,205);
+	color:white;
+	/*height:2.5rem;*/
+	width:100vw;
+	text-align:center;
+	/*position:static;*/
+	
+}
+span{
+	display: inline-block;
+	vertical-align:middle;
+}
+.register{
+    position:absolute;
+    left:0.7rem;
+    top:0.3rem;
+    font-size:1rem;
+}
+.signin_1{
+	letter-spacing:0.15rem;
+	font-size:1.11rem;
+}
+.close{
+	position:absolute;
+	right:0.7rem;
+	top:0.3rem;
+	font-size:1rem;
+}
+.box_1,.box_2{
+	display:flex;
+	margin:0.5rem 0;
+	width:100vw;
+	background:#fff;
+}
+/*.box_3{
+	display:block;
+}*/
+img{
+	margin:0 1rem 0 0;
+   /* display:flex;*/
+	height:3rem;
+	width:4rem;
+	/*vertical-align:top;*/
+
+}
+/*.input_2 [placeholder]::-webkit-input_2-placeholder{
+　　color:rgb(188,188,188);
+    font:600 1rem Arial;
+}　*/
+.input_1,.input_2{
+    border:none;
+	height:3rem;
+	width:20rem;
+	font-weight:600;
+	color:rgb(188,188,188);
+	font-size:1rem;
+	outline-color:#fff;
+}
+/*[placeholder]{
+	color:rgb(188,188,188);
+}*/
+.signin_2{
+    height:2.8rem;
+    font-size:1.22rem;
+    letter-spacing:1.5rem;
+}
+a{
+	color:rgb(95,192,205);
+	margin:0.7rem;
+	float:right;
+	font-size:0.8rem;
+}
