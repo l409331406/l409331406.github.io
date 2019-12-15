@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height:100%;
+	width:100%;
+	font-size:10px;
+	background-color:#68cdd5;/*rgb(104,205,213)*/
+}
+.return{
+	height:6rem;
+}
+.return1{
+	height:5rem;
+	width:5rem;
+}
+.logo{
+	margin:0 auto;
+	text-align:center;
+	width:auto;
+	height:14rem;
+}
+.logo1{
+	height:9rem;
+	width:18rem;
+}
+.character{
+	text-align:center;
+	font-size:1.4rem;
+	font-weight:bold;
+	color:#fff;
+	margin:0 10%;
+	height:auto;
+	width:auto;
+}
+.cornermark_box1{
+	float:left;
+	margin-top:20%;
+}
+.cornermark1,.cornermark2{
+	height:15rem;
+	width:15rem;
+}
+.cornermark_box2{
+	float:right;
+	margin-top:20%;
+}

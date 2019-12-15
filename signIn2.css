@@ -17,8 +17,11 @@ header{
 .signin_2,header{
 	background:rgb(95,192,205);
 	color:white;
+	/*height:2.5rem;*/
 	width:100vw;
 	text-align:center;
+	/*position:static;*/
+	
 }
 span{
 	display: inline-block;
@@ -46,20 +49,33 @@ span{
 	width:100vw;
 	background:#fff;
 }
+/*.box_3{
+	display:block;
+}*/
 img{
 	margin:0 1rem 0 0;
+   /* display:flex;*/
 	height:3rem;
 	width:4rem;
+	/*vertical-align:top;*/
 
 }
+/*.input_2 [placeholder]::-webkit-input_2-placeholder{
+　　color:rgb(188,188,188);
+    font:600 1rem Arial;
+}　*/
 .input_1,.input_2{
     border:none;
 	height:3rem;
 	width:20rem;
 	font-weight:600;
+	color:rgb(188,188,188);
 	font-size:1rem;
 	outline-color:#fff;
 }
+/*[placeholder]{
+	color:rgb(188,188,188);
+}*/
 .signin_2{
     height:2.8rem;
     font-size:1.22rem;
