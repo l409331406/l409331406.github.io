@@ -21,13 +21,11 @@ header{
 	text-align:center;
 }
 span{
-	display: inline-block;
-	vertical-align:middle;
+    line-height:2.5rem;
 }
 .register{
     position:absolute;
     left:0.7rem;
-    top:0.3rem;
     font-size:1rem;
 }
 .signin_1{
@@ -37,7 +35,6 @@ span{
 .close{
 	position:absolute;
 	right:0.7rem;
-	top:0.3rem;
 	font-size:1rem;
 }
 .box_1,.box_2{
