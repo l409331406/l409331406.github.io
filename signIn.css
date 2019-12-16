@@ -10,7 +10,7 @@ html,body{
 	font-size:16px;
 }
 header{
-	position:relative;
+	position:fixed;
 	height:2.5rem;
 	font-size:1.2rem;
 }
@@ -39,10 +39,17 @@ span{
 }
 .box_1,.box_2{
 	display:flex;
+	position:absolute;
 	flex-direction:row;
 	margin:0.5rem 0;
 	width:100vw;
 	background:#fff;
+}
+.box_1{
+	top:3rem;
+}
+.box_2{
+	top:7rem;
 }
 img{
 	margin:0 1rem 0 0;
@@ -59,13 +66,17 @@ img{
 	outline-color:#fff;
 }
 .signin_2{
+	position:absolute;
+	top:11.5rem;
     height:2.8rem;
     font-size:1.22rem;
     letter-spacing:1.5rem;
 }
 a{
+	position:absolute;
+	right:0.5rem;
+	top:14.5rem;
 	color:rgb(95,192,205);
 	margin:0.7rem;
-	float:right;
 	font-size:0.8rem;
 }
