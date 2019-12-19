@@ -99,7 +99,7 @@ main{
     border-style:solid;
 	border-width: .2rem 0;
 	border-color:rgb(225,229,231) #fff;
-	margin: 0 2rem 0 0;
+	margin: 0 2rem 0 2rem;
 }
 .text_4{
 	margin:0 1rem;
@@ -113,7 +113,7 @@ main{
 	margin:1rem 2rem -1rem 1rem;
 }
 .box_7{
-	margin: 0 2rem 0 0;
+	margin: 0 2rem 0 2rem;
 }
 .text_5{
 	color:rgb(226,97,99);
@@ -121,9 +121,9 @@ main{
 .box_8{	
 	position:relative;
     border-style:solid;
-	border-width: 0 0 .2rem;
+	border-width: 0 0 .2rem ;
 	border-color:rgb(225,229,231) #fff;
-	margin:0 2rem 8rem 0;
+	margin:0 2rem 8rem 2rem;
 	height:auto;
 }
 .box_8-1{
