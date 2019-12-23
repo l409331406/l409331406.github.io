@@ -28,6 +28,7 @@ header{
 	float:left;
 }
 main{
+	-webkit-overflow-scrolling:touch;
 	position:absolute;
 	top:3.9rem;
 	overflow-y:auto;
@@ -70,15 +71,17 @@ main{
 .img_4{
 	height:1.3rem;
 	margin-bottom:-0.2rem;
-	margin-right:0.4rem;
+	margin-right:0.5rem;
 }
 .box_4{
-	height:5rem;
-	line-height:5rem;
-	font-size:1.2rem;
 	border-style:solid;
 	border-width: 0 0 .1rem 0;
     border-color:rgb(225,229,231);
+}
+.box_4,.box_5,.box_6,.box_7{
+	height:5rem;
+	line-height:5rem;
+	font-size:1.2rem;
 }
 .photo_1{
 	display:inline-block;
@@ -87,15 +90,9 @@ main{
 	background:rgb(95,192,205);
 	margin:1rem .5rem -.2rem 1rem;
 }
-.box_5,.box_6,.box_7{
-	height:5rem;
-	line-height:5rem;
-	font-size:1.2rem;
-}
 .img_5{
 	height:2rem;
-	margin: 0 0 -.6rem 2rem; 
-
+	margin: 0 0 -.6rem 2rem;
 }
 .img_6{
 	height:2rem;
@@ -111,7 +108,7 @@ main{
 	margin:0 1rem;
 	color:rgb(153,153,153);
 }
-.photo_2{
+.photo_2,.photo_3{
 	display:inline-block;
 	width:.15rem;
 	height:2rem;
@@ -137,21 +134,17 @@ main{
 	top:50%;
 	transform: translateY(-50%);
 	left:;
+	display:inline-block;
 	height:5rem;
     width:8rem;
     font-size:1.2rem;
-    color:rgb(153,153,153);
-    display:inline-block;
+    color:rgb(153,153,153);  
 }
 .text_6{
 	display:inline-block;
 	margin:1rem 1rem;
 }
 .photo_3{
-	display:inline-block;
-	width:.15rem;
-	height:2rem;
-	background:rgb(225,229,231);
 	margin:0 0 -0.5rem 0.5rem;
     align-self:center;
 }
